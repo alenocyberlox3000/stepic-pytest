@@ -1,7 +1,7 @@
 import time
 from selenium.webdriver.common.by import By
 
-def test_add_to_basket_button_is_present(browser):
+def test_add_to_basket_button_is_exists(browser):
     link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
     browser.get(link)
     time.sleep(30)
